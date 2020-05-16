@@ -1,0 +1,1276 @@
+@font-face {
+    font-family: 'montez';
+    src: url(fonts/Montez-Regular.ttf);
+}
+.logo-text{
+    font-family: Montez;
+    
+}
+
+
+body{
+    margin: 0;
+}
+@media  screen and (min-width:990px){
+    .logo-text{
+         font-weight: bolder; 
+         text-align: center; 
+         font-size: 55px; 
+         margin-left:2px;
+    }
+    .logo-image{
+        width: 80px;
+        height: 80px;
+    }
+    #header-bar-top {
+        position: relative;
+        /* background: rgba(44, 62, 80 ,0.9); */
+    }
+    #Home-section{
+        margin-top: -130px;
+        
+    }
+    #About-us {
+         
+    }
+    #Menu {
+       
+    }
+    #about-text {
+        motion: reverse;
+    }
+}
+@media  screen and (max-width:990px) {
+    
+    .logo-text{
+        
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        margin-left: 25px;
+    }
+    .logo-image{
+        width: 60px;
+        height: 60px;
+    }
+    #header-bar-top {
+        position: fixed;
+        background: #333;
+    }
+    #Home-section{
+        margin-top: 110px;
+        
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav{
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background: rgba(9, 32, 56, 0.9);
+        top: 110px;
+        text-align: center;
+        left: 0;
+    }
+    nav  .navbar-nav .nav-item{
+        display: block;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+     /* nav .navbar-nav{
+        position: fixed;
+        align-items: center;
+        width: 100%;;
+        height: 60vh;
+        background: rgba(44, 62, 80 ,0.9);
+        top: 0;
+        text-align: center;
+    }
+    nav .navbar-nav .nav-item {
+        display: block;
+        position: fixed;
+        line-height: 30px;
+        
+    }
+    nav .navbar-nav .nav-item .btn{
+        border: none;
+        line-height: 30px;
+        background: none;
+        
+        
+        
+    } */
+
+    
+.nav-link{
+        font-size: 1em;
+        font-weight: 100;
+     }
+        
+    
+   
+
+}
+@media screen and (max-width:450px){
+    .logo-text {
+        font-size: 30px;
+    }
+    .logo-image {
+        width: 40px;
+        height: 40px;
+
+    }
+    #Home-section{
+        margin-top: 90px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav{
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background: rgba(44, 62, 80 ,0.9);
+        top: 110px;
+        text-align: center;
+        left: 0;
+    }
+    nav  .navbar-nav .nav-item{
+        display: block;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+}
+    
+    .navbar-toggler{
+    width: 5em;
+    }
+    .navbar-toggler-icon{
+    width: 6em;
+    }
+    .btn{
+    width: 6em;
+    padding-right: 2em;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+
+
+ <!-- menu-->
+
+    html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+    }
+    h3.w3ls-title {
+    font-size: 3.2em;
+    color: #482d2e;
+    }
+    h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    }
+    h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+h4.w3l-sub {
+    font-family: 'Gentium Basic', serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 1.9em;
+    text-transform: capitalize;
+    font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.menu-section {
+    margin-bottom: 80px;
+}
+.menu-section {
+    margin-bottom: 80px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+h3.menu-section-title {
+    font-family: 'Gentium Basic', serif;
+    font-size: 2em;
+    display: block;
+    font-style: italic;
+    margin: 0 0 20px;
+    text-transform: capitalize;
+    text-align: Center;
+    color: #040202;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.border-dot {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #000;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item-name h6 {
+    font-size: 1.3em;
+    color: #000;
+    font-family: 'Gentium Basic', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item-price h6 {
+    font-family: 'Gentium Basic', serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #777;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.border-dot {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #000;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item-description {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item-description p {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1em;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.menu-item-description {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item-description {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.border-dot {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #000;
+}
+div {
+    display: block;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-bg1 {
+    background: url(Images/coffee-png.png) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-bg2 {
+    background: url(Images/dessert.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-bg3 {
+    background: url(Images/Snaks.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.menu-bg4 {
+    background: url(Images/chocolate-smoothie-1058191.jpg) no-repeat center;
+    background-size: contain;
+    min-height: 300px;
+}
+div {
+    display: block;
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+.menu-body {
+    max-width: 680px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(92, 92, 92);
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.details-bg {
+    background: url(../images/slide3.jpg) no-repeat left;
+    background-size: contain;
+    background-attachment: fixed;
+}
+section {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.contact-main {
+    max-width: 500px;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.contact-left, .contact-right {
+    background: #eee;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.contact-main h5 {
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.list-group-item {
+    background: #e0e0e0;
+}
+.list-group-item, .bg-add {
+    background: #e8e8e8;
+}
+.list-group-item {
+    color: #482d2e;
+}
+li {
+    list-style-type: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.list-group-item {
+    background: #e0e0e0;
+}
+.list-group-item, .bg-add {
+    background: #e8e8e8;
+}
+.list-group-item {
+    color: #482d2e;
+}
+li {
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.list-group-item {
+    background: #e0e0e0;
+}
+.list-group-item, .bg-add {
+    background: #e8e8e8;
+}
+.list-group-item {
+    color: #482d2e;
+}
+li {
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.list-group-item {
+    background: #e0e0e0;
+}
+.list-group-item, .bg-add {
+    background: #e8e8e8;
+}
+.list-group-item {
+    color: #482d2e;
+}
+li {
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: disc;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.contact-left, .contact-right {
+    background: #eee;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.list-group-item, .bg-add {
+    background: #e8e8e8;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+address {
+    display: block;
+    font-style: italic;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.address p a, p.c-txt {
+    color: #777;
+    font-size: 1em;
+}
+p {
+    line-height: 1.8;
+    font-size: 1em;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+address {
+    font-style: italic;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+p {
+    line-height: 1.8;
+    font-size: 1em;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+address {
+    font-style: italic;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+p {
+    line-height: 1.8;
+    font-size: 1em;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+address {
+    font-style: italic;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+body a {
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+p {
+    line-height: 1.8;
+    font-size: 1em;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+address {
+    font-style: italic;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+div {
+    display: block;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.contact-main h5 {
+    font-family: 'Gentium Basic', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+html, body {
+    font-family: 'Gentium Basic', serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+
