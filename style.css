@@ -825,7 +825,7 @@ html, body {
     overflow-x: hidden;
 }
 .menu-bg1 {
-    background: url(Images/coffee-png.png) no-repeat center;
+    /* background: url(Images/coffee-png.png) no-repeat center; */
     background-size: cover;
     min-height: 300px;
 }
@@ -850,7 +850,7 @@ html, body {
     overflow-x: hidden;
 }
 .menu-bg2 {
-    background: url(Images/dessert.jpg) no-repeat center;
+    /* background: url(Images/dessert.jpg) no-repeat center; */
     background-size: cover;
     min-height: 300px;
 }
@@ -875,7 +875,7 @@ html, body {
     overflow-x: hidden;
 }
 .menu-bg3 {
-    background: url(Images/Snaks.jpg) no-repeat center;
+    /* background: url(Images/Snaks.jpg) no-repeat center; */
     background-size: cover;
     min-height: 300px;
 }
@@ -900,7 +900,7 @@ html, body {
     overflow-x: hidden;
 }
 .menu-bg4 {
-    background: url(Images/chocolate-smoothie-1058191.jpg) no-repeat center;
+    /* background: url(Images/chocolate-smoothie-1058191.jpg) no-repeat center; */
     background-size: contain;
     min-height: 300px;
 }
