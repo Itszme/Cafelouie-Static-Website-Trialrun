@@ -732,7 +732,7 @@
                 <div class="col-12 col-md-4 p-3 text-white " style="border-radius: 25px;background: rgb(47, 47, 48);">
                     <!-- contact form grid -->
                     <div class="contact-top1 p-4">
-                        <form action="process.php" method="POST" name="form" class=" f-color " >
+                        <form id="submit-form" action=""  name="form" class=" f-color " >
                             <div class="form-group ">
                                 <label for="contactusername">Name</label>
                                 <input type="text " name="name" class="form-control " placeholder="Enter Your Name" id="contactusername " required>
@@ -849,6 +849,25 @@
 
 
 
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url: "http://127.0.0.1:5501/process.php",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 
 
     <button class="gotopbtn"><a  href="#"><i class="fa fa-angle-double-up" style="font-size:20px;color: #276191;"></i></a></button>
@@ -857,5 +876,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
 </body>
+
 
 </html>
